@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.daivansh.jobreferer.activities.AddPostActivity"
+    android:padding="0dp"
+    android:paddingEnd="0dp"
+    android:paddingStart="0dp">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/toolbar2"
+        app:titleTextColor="@color/colorWhite" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginBottom="20dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="Job Title:"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView31"
+                    android:layout_alignParentStart="true"
+                    android:textColor="@color/colorBlack" />
+
+                <EditText
+                    android:hint="Enter Job Title Here."
+                    android:layout_width="match_parent"
+                    android:textSize="18dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editTexttitle"
+                    android:layout_centerHorizontal="true"
+                    style="@style/Widget.AppCompat.EditText"
+                    android:singleLine="true"
+                    android:inputType="textCapWords" />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="Job Description: "
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView"
+                    android:layout_alignParentStart="true"
+                    android:textColor="@color/colorBlack" />
+
+                <EditText
+                    android:hint="Enter Job Description Here..."
+                    android:layout_width="match_parent"
+                    android:textSize="18dp"
+                    android:id="@+id/editTextdesc"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1.77"
+                    android:layout_height="200px"
+                    android:inputType="textCapSentences" />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="Expiry Date:"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView12"
+                    android:layout_alignParentStart="true"
+                    android:textColor="@color/colorBlack" />
+
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imageViewdate"
+                        android:src="@drawable/ic_action_cal"
+                        android:foregroundGravity="left"
+                        android:contentDescription="select date"
+                        android:padding="10dp" />
+                    <TextView
+                        android:text=""
+                        android:textSize="20dp"
+                        android:forceHasOverlappingRendering="false"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textViewdate"
+                        android:layout_alignParentStart="true"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+
+
+
+                <TextView
+                    android:text="Select Interests"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewcno"
+                    android:layout_weight="3.50"
+                    android:textColor="@color/colorBlack" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerinterest"
+                    android:layout_weight="3.50" />
+            </LinearLayout>
+</android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+                <TextView
+                    android:text="Experience(in years):"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView9"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="3.50"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:text="0"
+                    android:textSize="18dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewexp"
+                    android:layout_alignParentStart="true"
+                    />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+                <TextView
+                    android:text="Location(City Name):"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView6"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="3.50"
+                    android:textColor="@color/colorBlack" />
+
+                <EditText
+                    android:hint="Enter City Name"
+                    android:layout_width="match_parent"
+                    android:textSize="18dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editTextlocation"
+                    android:layout_centerHorizontal="true"
+                    android:singleLine="true"
+                    android:inputType="textCapWords" />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="12dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+                <TextView
+                    android:text="Enter Salary (per annum):"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView23"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="3.50"
+                    android:textColor="@color/colorBlack" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:weightSum="2">
+                    <EditText
+                        android:hint="Salary (Initial)"
+                        android:layout_width="match_parent"
+                        android:textSize="18dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editTextinitsal"
+                        android:layout_weight="1"
+                        android:layout_centerHorizontal="true"
+                        android:inputType="numberDecimal"
+                        android:singleLine="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        style="@style/Widget.AppCompat.EditText" />
+
+                    <EditText
+                        android:hint="Salary (Max)"
+                        android:layout_width="match_parent"
+                        android:textSize="18dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editTextmaxsal"
+                        android:layout_weight="1"
+                        android:layout_centerHorizontal="true"
+                        android:inputType="numberDecimal"
+                        android:singleLine="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

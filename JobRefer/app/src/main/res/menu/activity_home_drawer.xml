@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:title="Search Jobs Via">
+            <menu>
+                <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/searchinterest"
+            android:icon="@drawable/ic_action_interests_sort"
+            android:title="Interests" />
+        <item
+            android:id="@+id/searchrecent"
+            android:icon="@drawable/ic_action_recent_all"
+            android:title="Recent" />
+                </group>
+            </menu>
+        </item>
+
+
+
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_action_profile"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/post"
+                android:icon="@drawable/ic_action_posts"
+                android:title="Recent Posts" />
+            <item
+                android:id="@+id/application"
+                android:icon="@drawable/ic_action_recent_applications"
+                android:title="Recent Applications" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_action_logout"
+                android:title="Logout" />
+
+
+</menu>

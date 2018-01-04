@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">JobReferer</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- <string name="server_url">http://192.168.43.201/jobrefer</string>       -->
+    <!--<string name="server_url">http://jobrefer.ignorelist.com/jobrefer</string>-->
+    <string name="server_url">https://jobrefer.dnsnet.info</string>
+    <!--<string name="server_url">http://117.207.139.160/jobrefer</string>-->
+    <!--<string name="server_url">http://common_dns.ignorelist.com/jobrefer</string>    -->
+    <string name="action_settings">Settings</string>
+
+    <string name="defaultPrefer">myPrefer</string>
+    <string name="skillsPrefer">skills</string>
+    <string name="dataPrefer">data</string>
+
+    <string name="keyUID">uid</string>
+    <string name="keyFIRSTNAME">fnm</string>
+    <string name="keyLASTNAME">lnm</string>
+    <string name="keyEMAIL">email</string>
+    <string name="keyPASSWORD">pswd</string>
+    <string name="keyGENDER">gender</string>
+    <string name="keyPHONENO">phone</string>
+    <string name="keyINTRESTS">intrests</string>
+    <string name="keyEXPERIENCE">expr</string>
+    <string name="keyLOCATION">location</string>
+
+    <string name="keyJOBID">jid</string>
+    <string name="keyJOBTITLE">jtitle</string>
+    <string name="keyJOBDESC">jdesc</string>
+    <string name="keyJOBSALARY">jsal</string>
+    <string name="keyJOBDATE">jdate</string>
+    <string name="keyJOBLOCATION">jloc</string>
+    <string name="keyJOBEXPERIENCE">jexp</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>

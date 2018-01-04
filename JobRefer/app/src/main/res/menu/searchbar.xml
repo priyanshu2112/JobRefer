@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_simple_search_white"
+        app:showAsAction="always|collapseActionView"
+        android:title="search"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item
+        android:id="@+id/filtersearch"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"
+        android:title="Search"
+        android:icon="@drawable/ic_filter_search_white" />
+    <item android:title="Sort By">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sortbyrecent"
+                    android:icon="@drawable/ic_action_recent_all"
+                    android:title="Recent"
+                    android:checked="true"
+                    />
+                <item
+                    android:id="@+id/sortlowtohigh"
+                    android:icon="@drawable/ic_action_interests_sort"
+                    android:title="Salary Low to High" />
+                <item
+                    android:id="@+id/sorthightolow"
+                    android:icon="@drawable/ic_action_recent_all"
+                    android:title="Salary High to Low" />
+            </group>
+        </menu>
+    </item>
+</menu>

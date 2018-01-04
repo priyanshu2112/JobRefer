@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_recent_posts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.daivansh.jobreferer.activities.RecentPostsActivity"
+    android:paddingEnd="0dp"
+    android:paddingStart="0dp"
+    android:padding="0dp">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/toolbar4"
+        app:titleTextColor="@color/colorWhite"
+        android:transitionGroup="false"
+        android:foregroundTint="@color/colorWhite"
+        android:foregroundTintMode="multiply"
+        android:longClickable="false" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar4"
+        android:layout_alignParentStart="true"
+        android:id="@+id/recentpostlist"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_home" />
+
+</RelativeLayout>

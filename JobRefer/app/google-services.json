@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "840757288705",
+    "firebase_url": "https://jobrefer-60e0b.firebaseio.com",
+    "project_id": "jobrefer-60e0b",
+    "storage_bucket": "jobrefer-60e0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840757288705:android:33302d5a2aad9cff",
+        "android_client_info": {
+          "package_name": "com.example.daivansh.jobreferer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840757288705-d7ptc63i1glr9dikbu2fdh98onla69pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM2zF41mJGruFgWx2pRlSsozLYNJbfMiY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

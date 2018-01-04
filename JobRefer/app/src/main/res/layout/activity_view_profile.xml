@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.daivansh.jobreferer.activities.ViewProfileActivity"
+    android:padding="0dp"
+    android:paddingEnd="0dp"
+    android:paddingStart="0dp">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/toolbar7" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar7"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="First name:"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewfnm"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <EditText
+                    android:text="editTextfname"
+                    android:layout_width="match_parent"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextfnm"
+                    android:layout_centerHorizontal="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:singleLine="true" />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+                <TextView
+                    android:text="Last Name:"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <EditText
+                    android:text="editTextlname"
+                    android:layout_width="match_parent"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextlnm"
+                    android:layout_centerHorizontal="true" />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="Select Interests:"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView12"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <TextView
+                    android:text="TextViewInterests"
+                    android:textSize="18dp"
+                    android:forceHasOverlappingRendering="false"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewinterestdisplay"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewinterest"
+                    android:src="@android:drawable/ic_menu_edit" />
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+                <TextView
+                    android:text="Contact No."
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewcno"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="3.50" />
+
+                <EditText
+                    android:text="editTextcontactno"
+                    android:layout_width="match_parent"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextcntct"
+                    android:layout_centerHorizontal="true"
+                    android:inputType="phone" />
+            </LinearLayout>
+</android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+                <TextView
+                    android:text="Change Password"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewcpwd"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="3.50" />
+                <Button
+                    android:text="Change Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/buttonchangepwd"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    style="@style/AppTheme.ButtonBorderless" />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+                <TextView
+                    android:text="Current Location:"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView6"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="3.50" />
+
+                <EditText
+                    android:text="editTextlocation"
+                    android:layout_width="match_parent"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextloc"
+                    android:layout_centerHorizontal="true" />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:weightSum="1"
+                android:padding="10dp">
+                <TextView
+                    android:text="Experience:"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView9"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="3.50" />
+
+                <TextView
+                    android:text="0"
+                    android:textSize="18dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewexperience"
+                    android:layout_alignParentStart="true"
+                    />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
